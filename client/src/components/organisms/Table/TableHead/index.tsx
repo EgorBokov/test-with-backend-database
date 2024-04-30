@@ -7,7 +7,7 @@ import TableSortLabel from '@mui/material/TableSortLabel';
 import Box from '@mui/material/Box';
 import { visuallyHidden } from '@mui/utils';
 import { IMainData, OrderType } from '@types/dataTypes.ts';
-import { headCells } from '@/utils/constatnts/table';
+import { headCells } from '@/utils/constants/table';
 
 type IEnhancedTableProps = {
     numSelected: number;
